@@ -15,41 +15,41 @@ Example:
 ---
     genclass Test -string -vector
 then Test.h and Test.cpp will be generated at current dirctory.
-Following are their content:
-    Test.h:
+Following are their content:</br>
+Test.h:</br>
     
-    > #ifndef _TEST_H_
-    > #define _TEST_H_
-    > 
-    > #include <string>
-    > #include <vector>
-    > 
-    > class Test
-    > {
-    >   public:
-    >     Test();
-    >     ~Test();
-    >   private:
-    > };
-    > 
-    > 
-    > #endif//_TEST_H_
-    > 
+    #ifndef _TEST_H_
+    #define _TEST_H_
     
-    Test.cpp:
+    #include <string>
+    #include <vector>
     
-    > #include "Test.h"
-    > 
-    > using namespace std;
-    > 
-    > Test::Test()
-    > {
-    > 
-    > }
-    > 
-    > Test::~Test()
-    > {
-    > 
-    > }
-    > 
+    class Test
+    {
+      public:
+     Test();
+     ~Test();
+      private:
+    };
+    
+    
+    #endif//_TEST_H_
+    
+    
+Test.cpp:</br>
+    
+    #include "Test.h"
+    
+    using namespace std;
+    
+    Test::Test()
+    {
+    
+    }
+    
+    Test::~Test()
+    {
+    
+    }
+    
     
