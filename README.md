@@ -26,10 +26,10 @@ Test.h:</br>
     
     class Test
     {
-      public:
-     Test();
-     ~Test();
-      private:
+    public:
+        Test();
+        ~Test();
+    private:
     };
     
     
